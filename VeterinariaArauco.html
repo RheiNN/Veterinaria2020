@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<title>ARAUCOVET - Confianza y Calidad</title>
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	<script src="js/script.js" type="text/javascript" charset="utf-8" async defer></script>
+	
+</head>
+<body>
+<div class="main_container" id="home">
+	<div class="navbar">
+		<div class="logo"><a href="#">Veterinaria Arauco</a></div>
+		<div class="navbar_items">
+			<ul>
+				<li><a href="#service">Servicios</a></li>
+				<li><a href="#proposito/ubicación/horario">Propósito/Ubicación</a></li>
+				<li><a href="#contacto">Contacto</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="image_arauco">
+		<div class="image_content">
+		<h1>ARAUCOVET</h1>
+		<p>Confianza y calidad por más de 22 años orientados a la salud animal</p>
+		</div>
+	
+	</div>
+
+	<div class="backservice">
+	<div class="services" id="service">
+		<div class="tittle_services">
+		<h1>SERVICIOS</h1>
+		</div>
+
+		<div class="aling_service_1">
+			
+		<div class="service_item" >
+			<img src="images/vacuna.jpg" alt="vacuna" id="Vacuna" onclick="popupVacuna()">
+			<div class="overlay" >Vacuna</div>
+		</div>
+
+		<div class="service_item">
+			<img src="images/ecografia.jpg" alt="ecografia" id="Ecografía" onclick="popupEco()">
+			<div class="overlay">Ecografía</div>
+		</div>
+
+		<div class="service_item">
+			<img src="images/peluqueria.jpg" alt="peluqueria" id="Peluqueria" onclick="popupPe()">
+			<div class="overlay">Peluquería</div>
+		</div>
+
+		</div>
+
+		<div class="aling_service_2">
+			
+		<div class="service_item">
+			<img src="images/limpieza.jpg" alt="limpieza" id="Limpieza" onclick="popupLi()">
+			<div class="overlay">Limpieza dental felina y canina</div>
+		</div>
+
+		<div class="service_item">
+			<img src="images/radiografia.jpg" alt="radiografia" id="Radiografía" onclick="popupRa()">
+			<div class="overlay">Radiografía</div>
+		</div>
+
+		<div class="service_item">
+			<img src="images/domicilio.jpg" alt="domicilio" id="Domicilio" onclick="popupDo()">
+			<div class="overlay">Visita a domicilio</div>
+		</div>
+
+		</div>
+
+		<div class="aling_service_3">
+			
+		<div class="service_item">
+			<img src="images/examenes.jpg" alt="examenes" id="Exámenes" onclick="popupEx()">
+			<div class="overlay">Exámenes</div>
+		</div>
+
+		<div class="service_item">
+			<img src="images/anfora.jpg" alt="anfora" id="Ánfora" onclick="popupAn()">
+			<div class="overlay">Ánfora</div>
+		</div>
+
+		<div class="service_item">
+			<img src="images/farmacia.jpg" alt="farmacia" id="Farmacia" onclick="popupFa()">
+			<div class="overlay">Farmacia</div>
+		</div>
+
+		</div>
+
+	</div>
+	</div>
+
+	<div class="bg-modal" id="modal">
+		<div class="modal-content">
+			<div class="close">+</div>
+			<img src="images/vacuna.jpg" alt="vacuna">
+			<p>Las vacunas cumplen un papel muy importante para la prevención de enfermedades como en su tratamiento, ademas de mantener el bienestar de su mascota y de los humanos que lo rodean.</p>
+		</div>
+	</div>
+
+	<div class="bg-modal_1" id="modal">
+		<div class="modal-content">
+			<div class="close_1">+</div>
+			<img src="images/ecografia.jpg" alt="ecografía">
+			<p>Posibilita al dueño conocer desde una camada de bebes hasta problemas internos en el sistema animal.</p>
+		</div>
+	</div>
+
+	<div class="bg-modal_2" id="modal">
+		<div class="modal-content">
+			<div class="close_2">+</div>
+			<img src="images/peluqueria.jpg" alt="peluqueria">
+			<p>Permite mantener la salud, la higiene y la apariencia de nuestras mascotas.</p>
+		</div>
+	</div>
+
+	<div class="bg-modal_3" id="modal">
+		<div class="modal-content">
+			<div class="close_3">+</div>
+			<img src="images/limpieza.jpg" alt="limpieza">
+			<p>El mal aliento (halitosis) es un problema común en los perros y gatos, los cuales pueden presentar un olor desagradable que por lo general se culmina con una profilaxis dental.</p>
+		</div>
+	</div>
+
+		<div class="bg-modal_4" id="modal">
+		<div class="modal-content">
+			<div class="close_4">+</div>
+			<img src="images/radiografia.jpg" alt="radiografía">
+			<p>Permite conocer posibles fracturas o problemas internos del animal.</p>
+		</div>
+	</div>
+
+
+	<div class="bg-modal_5" id="modal">
+		<div class="modal-content">
+			<div class="close_5">+</div>
+			<img src="images/domicilio.jpg" alt="domicilio">
+			<p>Permite realizar una revisión en su domicilio para conocer posibles problemas que posea su mascota.</p>
+		</div>
+	</div>
+
+		<div class="bg-modal_6" id="modal">
+		<div class="modal-content">
+			<div class="close_6">+</div>
+			<img src="images/examenes.jpg" alt="examenes">
+			<p>Los exámenes de laboratorio se utilizan tanto para descartar enfermedades como para confirmar o identificar estos.</p>
+		</div>
+	</div>
+
+	<div class="bg-modal_7" id="modal">
+		<div class="modal-content">
+			<div class="close_7">+</div>
+			<img src="images/anfora.jpg" alt="anfora">
+			<p>La cremación es un proceso amigable con el medio ambiente y que te permite atesorar a tu mascota de la manera que estimes conveniente.</p>
+		</div>
+	</div>
+	
+	<div class="bg-modal_8" id="modal">
+		<div class="modal-content">
+			<div class="close_8">+</div>
+			<img src="images/farmacia.jpg" alt="farmacia">
+			<p>Contamos con una amplia gama de medicamentos y artpiculos para animales.</p>
+		</div>
+	</div>
+
+	<div class="slideshow-container" id="proposito/ubicación/horario">
+
+	<div class="mySlides fade">
+	  <img src="images/proposito.png" style="width:100%">
+	</div>
+
+	<div class="mySlides fade">
+	  <img src="images/ubicacion.png" style="width:100%">
+	</div>
+
+	<div class="mySlides fade">
+	  <img src="images/horario.png" style="width:100%">
+	</div>
+
+	</div>
+	<br>
+
+	<div style="text-align:center">
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	</div>
+
+
+	<div class="form">
+	<div class="contact" id="contacto">
+		<h1>CONTÁCTENOS</h1>
+	</div>
+	<div class="form_wapper">
+	<div class="form_input">
+		<input type="text" name="nombre" placeholder="Nombre">
+	</div>
+	<div class="form_input">
+	<input type="text" name="mail" placeholder="Correo">
+    </div>
+	<div class="form_input">
+	<input type="number" name="numero" placeholder="Celular">
+	</div>
+	<div class="form_input">
+	<textarea name="mensaje" placeholder="Mensaje"></textarea>
+    </div>
+	<div class="btn">
+		<a href="#">Enviar</a>
+	</div>
+	</div>
+	</div>
+
+	<div class="footer">
+		<div id="googleMap">
+			<span class="gps">gps maps</span>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13307.211263725681!2d-70.601501!3d-33.506507!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa0066577bc5a4552!2sVeterinaria%20Arauco!5e0!3m2!1sen!2ses!4v1603401991327!5m2!1sen!2ses">
+				
+			</iframe>
+		</div>
+		<div class="follow">
+			<span class="social">redes sociales</span>
+			<div class="follow-items">
+			<a href="https://www.facebook.com/araucovet/"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://twitter.com/VeterinariaAra1"><i class="fab fa-twitter"></i></a>	
+			</div>
+			
+		</div>
+	</div>
+	<div class="sub_footer">
+		<span>Copyright © Veterinaria Arauco 2020</span>
+	</div>
+</div>
+
+</body>
+</html>
